@@ -13,6 +13,14 @@
 
 ---
 
+## Demo: :red_circle:
+
+**Chat**:
+![Chat](./assets/demo.gif)
+
+
+---
+
 ## Description: :star:
 
 <p>This project is a chat inside of terminal of your computer. With it is possible to connect several users and create new rooms.</p>
