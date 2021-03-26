@@ -1,0 +1,26 @@
+{
+  "name": "@janapc/terminal-hacker-chat",
+  "version": "1.0.0",
+  "description": "This package runs a chat inside of your terminal",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "terminal-hacker-chat": "index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev:user01": "terminal-hacker-chat --username User01 --room room01",
+    "dev:user02": "terminal-hacker-chat --username User02 --room room01",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "15"
+  },
+  "keywords": ["chat", "terminal", "js", "javascript"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "dotenv": "^8.2.0"
+  }
+}
